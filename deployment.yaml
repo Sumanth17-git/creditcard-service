@@ -58,11 +58,11 @@ spec:
             - name: SERVER_PORT
               value: "9090"
             - name: SPRING_DATASOURCE_URL
-              value: jdbc:postgresql://34.170.1.230:5432/springbootdb
+              value: jdbc:postgresql://postgres-rds-database.ce3uwaq6uk8h.us-east-1.rds.amazonaws.com:5432/springbootdb
             - name: SPRING_DATASOURCE_USERNAME
               value: postgres
             - name: SPRING_DATASOURCE_PASSWORD
-              value: admin@123    
+              value: Admin_4321
             # Tracing, profiling, DI, JMX, AppSec
             - name: DD_TRACE_SAMPLE_RATE
               value: "1"

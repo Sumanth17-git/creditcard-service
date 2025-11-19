@@ -142,6 +142,7 @@ java -javaagent:/home/ubuntu/dd-java-agent.jar \
 ```
 
 ### Testing
+```bash
 GET http://3.91.194.213:9090/api/employees/194
 GET http://3.91.194.213:9090/api/employees/firstname/sumanth197
 ```

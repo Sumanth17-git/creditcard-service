@@ -77,7 +77,7 @@ vi config.yaml
 ```bash
 logs:
   - type: file
-    path: /var/log/healthcare-service/app.log
+    path: /var/log/creditcard-service/app.log
     service: healthcare-service
     source: java
 ```

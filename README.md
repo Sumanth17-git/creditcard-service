@@ -5,6 +5,7 @@ git clone  https://github.com/Sumanth17-git/creditcard-service.git
 ### Create A Database INSTANCE 
 ## Generate the test data
 ```bash
+CREATE DATABASE springbootdb;
 CREATE TABLE employees (
     id SERIAL PRIMARY KEY,
     first_name VARCHAR(50),
